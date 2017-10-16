@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8>
+  <title>Naprendszer</title>
+  <style>
+  body { 
+    margin: 0; 
+    padding: 0;
+    background: #eee;
+  }
+  </style>
+</head>
+
+<body>
+ 
+  <div>Hello world</div>
+  <input type="range" id="rng" oninput="slide()">  
+  <div></div>
+  <canvas id="cnv" 
+          width="500"
+          height="500"
+          onmousedown="canvasDrag();"
+          onmouseup="canvasStopDrag();"
+          onwheel="canvasWheel();"></div>
+  <script src="http://web.cs.elte.hu/~papjuli/three.js"></script>
+  <script src="http://web.cs.elte.hu/~papjuli/TrackballControls.js"></script>
+  <script src="solar_system.js"></script>
+</body>
+</html>
