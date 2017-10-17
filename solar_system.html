@@ -15,7 +15,7 @@
 
 <body>
  
-  <div>Hello world</div>
+  <div id="hello">Hello world</div>
   <input type="range" id="rng" oninput="slide()">  
   <div></div>
   <canvas id="cnv" 
@@ -27,5 +27,9 @@
   <script src="http://web.cs.elte.hu/~papjuli/three.js"></script>
   <script src="http://web.cs.elte.hu/~papjuli/TrackballControls.js"></script>
   <script src="solar_system.js"></script>
+  <script type="text/javascript">
+    document.getElementById("hello").innerHTML = "Hello";
+  </script>
+  <script src="HelloWorld.js"></script>
 </body>
 </html>
