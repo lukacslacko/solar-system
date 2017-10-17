@@ -1,1 +1,1 @@
-{"version":3,"file":"planet.js","sourceRoot":"","sources":["planet.ts"],"names":[],"mappings":"AAAA;IACI,gBAAmB,CAAU;QAAV,MAAC,GAAD,CAAC,CAAS;IAAG,CAAC;IAErC,aAAC;AAAD,CAAC,AAHD,IAGC"}
+{"version":3,"file":"Planet.js","sourceRoot":"","sources":["Planet.ts"],"names":[],"mappings":"AAAA;IACI,gBAAmB,CAAU;QAAV,MAAC,GAAD,CAAC,CAAS;IAAG,CAAC;IAE1B,yBAAQ,GAAf;QACI,MAAM,CAAC,QAAQ,GAAG,IAAI,CAAC,CAAC,CAAC;IAC7B,CAAC;IACL,aAAC;AAAD,CAAC,AAND,IAMC"}

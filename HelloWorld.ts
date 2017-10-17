@@ -1,6 +1,7 @@
 class Startup {
     public static main(): number {
-        console.log('Hello');
+        var planet = new Planet(5);
+        console.log(planet.greeting());
         return 0;
     }
 }
